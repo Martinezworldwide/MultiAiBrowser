@@ -47,7 +47,7 @@ const aiModels = [
 { name: "Pika Labs AI", url: "https://pika.art/", sector: "experimental" },
 { name: "Venice Uncensored AI", url: "https://venice.ai/", sector: "chatbot" },
 { name: "Replit Ghostwriter", url: "https://replit.com/ghostwriter", sector: "coding" },
-{ name: "GetLiner AI", url: "https://getliner.com/", sector: "search" }
+{ name: "GetLiner AI", url: "https://getliner.com/", sector: "search" },
 
 
 
