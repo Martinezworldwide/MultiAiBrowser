@@ -32,7 +32,7 @@ const aiModels = [
   { name: "Llama 3 Playground", url: "https://huggingface.co/spaces/huggingface-projects/llama-3-playground", sector: "experimental" },
   { name: "Bing Copilot", url: "https://bing.com/chat", sector: "experimental" },
   { name: "Nvidia Nemo", url: "https://www.nvidia.com/en-us/ai-data-science/nemo/", sector: "experimental" },
-  { name: "Aria (Opera AI)", url: "https://www.opera.com/features/aria", sector: "experimental" }
+  { name: "Aria (Opera AI)", url: "https://www.opera.com/features/aria", sector: "experimental" },
 ];
 
 const aiGrid = document.getElementById('aiGrid');
