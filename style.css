@@ -1,40 +1,100 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #f4f4f4;
+  font-family: 'Orbitron', sans-serif;
+  background: #0a0a0a;
   margin: 0;
   padding: 0;
+  color: #fff;
 }
 
 header {
-  background: #333;
-  color: white;
-  padding: 1em;
   text-align: center;
+  padding: 1em;
+  background: #111;
 }
 
-#searchInput {
-  margin-top: 10px;
-  padding: 10px;
-  width: 80%;
-  font-size: 16px;
+h1 {
+  margin-bottom: 10px;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 15px;
-  padding: 20px;
+nav {
+  margin-bottom: 10px;
 }
 
-.grid button {
-  padding: 20px;
-  font-size: 16px;
-  background: white;
-  border: 2px solid #333;
+nav .filter-btn {
+  background: #222;
+  color: #fff;
+  border: 2px solid #555;
+  padding: 10px 15px;
+  margin: 5px;
   cursor: pointer;
   transition: 0.3s;
 }
 
-.grid button:hover {
-  background: #ddd;
+nav .filter-btn:hover, nav .filter-btn.active {
+  background: #00f0ff;
+  color: #000;
 }
+
+#searchInput {
+  width: 80%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.ai-card {
+  background: #111;
+  border: 2px solid #333;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  transition: 0.4s;
+  cursor: pointer;
+  position: relative;
+}
+
+.ai-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #00f0ff;
+}
+
+.ai-card h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 50px;
+  margin-top: 8px;
+}
+
+.badge.chatbot {
+  background: #007bff;
+}
+
+.badge.search {
+  background: #00ff90;
+  color: #000;
+}
+
+.badge.coding {
+  background: #bf00ff;
+}
+
+.badge.experimental {
+  background: #ffc107;
+  color: #000;
+}
+
