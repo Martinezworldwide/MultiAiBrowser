@@ -24,6 +24,17 @@ const aiModels = [
   { name: "GitHub Copilot Chat", url: "https://github.com/features/preview/copilot-x" },
   { name: "Cursor AI", url: "https://cursor.sh/" },
   { name: "Codeium", url: "https://www.codeium.com/" }
+  { name: "Devin AI", url: "https://www.cognition-labs.com/" },
+  { name: "Replika AI", url: "https://replika.com/" },
+  { name: "Chai App AI", url: "https://chai.ml/" },
+  { name: "Character.AI", url: "https://character.ai/" },
+  { name: "Aether Chat", url: "https://aetherchat.ai/" },
+  { name: "Kuki AI", url: "https://www.kuki.ai/" },
+  { name: "Janitor AI", url: "https://janitorai.com/" },
+  { name: "Bing Copilot AI", url: "https://www.bing.com/chat" },
+  { name: "Vercel v0.dev", url: "https://v0.dev/" },
+  { name: "Llama 3 Playground", url: "https://huggingface.co/spaces/huggingface-projects/llama-3-playground" }
+
 
 ];
 
