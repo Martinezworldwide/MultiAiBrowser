@@ -9,7 +9,22 @@ const aiModels = [
   { name: "OpenRouter", url: "https://openrouter.ai/chat" },
   { name: "HuggingChat", url: "https://huggingface.co/chat/" },
   { name: "Pi.ai", url: "https://pi.ai/talk/" }
-  // You can keep adding more here easily!
+  { name: "You.com Chat", url: "https://you.com/chat" },
+  { name: "Andi Search", url: "https://andisearch.com/" },
+  { name: "Phind.com", url: "https://www.phind.com/" },
+  { name: "Consensus AI", url: "https://consensus.app/" },
+  { name: "Aria (Opera AI)", url: "https://www.opera.com/features/aria" },
+  { name: "Komo AI", url: "https://komo.ai/" },
+  { name: "Kagi Small Web", url: "https://kagi.com/smallweb" },
+  { name: "Poe by Quora", url: "https://poe.com/" },
+  { name: "Writesonic (Chatsonic)", url: "https://writesonic.com/chat" },
+  { name: "ZenoChat", url: "https://zeno.com/chat" },
+  { name: "Reka AI", url: "https://reka.ai/" },
+  { name: "Nvidia Nemo", url: "https://www.nvidia.com/en-us/ai-data-science/nemo/" },
+  { name: "GitHub Copilot Chat", url: "https://github.com/features/preview/copilot-x" },
+  { name: "Cursor AI", url: "https://cursor.sh/" },
+  { name: "Codeium", url: "https://www.codeium.com/" }
+
 ];
 
 const aiGrid = document.getElementById('aiGrid');
