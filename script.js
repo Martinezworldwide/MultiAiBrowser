@@ -33,6 +33,20 @@ const aiModels = [
   { name: "Bing Copilot", url: "https://bing.com/chat", sector: "experimental" },
   { name: "Nvidia Nemo", url: "https://www.nvidia.com/en-us/ai-data-science/nemo/", sector: "experimental" },
   { name: "Aria (Opera AI)", url: "https://www.opera.com/features/aria", sector: "experimental" },
+{ name: "Perplexity Labs", url: "https://labs.perplexity.ai/", sector: "experimental" },
+{ name: "Vana AI", url: "https://www.vana.com/", sector: "experimental" },
+{ name: "Dreamily AI", url: "https://www.dreamily.ai/", sector: "chatbot" },
+{ name: "Sudowrite", url: "https://sudowrite.com/", sector: "chatbot" },
+{ name: "Plexi AI", url: "https://www.plexiai.com/", sector: "chatbot" },
+{ name: "ChatPDF", url: "https://www.chatpdf.com/", sector: "search" },
+{ name: "AskYourPDF", url: "https://www.askyourpdf.com/", sector: "search" },
+{ name: "Blackbox AI", url: "https://www.blackbox.ai/", sector: "coding" },
+{ name: "SciSpace AI", url: "https://typeset.io/", sector: "search" },
+{ name: "Leonardo AI", url: "https://leonardo.ai/", sector: "experimental" },
+{ name: "Runway AI", url: "https://runwayml.com/", sector: "experimental" },
+{ name: "Pika Labs AI", url: "https://pika.art/", sector: "experimental" },
+
+
 ];
 
 const aiGrid = document.getElementById('aiGrid');
