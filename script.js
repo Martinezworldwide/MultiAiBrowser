@@ -9,7 +9,7 @@ const aiModels = [
   { name: "OpenRouter", url: "https://openrouter.ai/chat" },
   { name: "HuggingChat", url: "https://huggingface.co/chat/" },
   { name: "Pi.ai", url: "https://pi.ai/talk/" }
-  // Add even more here
+  // You can keep adding more here easily!
 ];
 
 const aiGrid = document.getElementById('aiGrid');
@@ -17,30 +17,9 @@ const aiGrid = document.getElementById('aiGrid');
 aiModels.forEach(model => {
   const button = document.createElement('button');
   button.textContent = model.name;
-  button.onclick = () => openModal(model.url);
+  button.onclick = () => window.open(model.url, '_blank');
   aiGrid.appendChild(button);
 });
-
-const modal = document.getElementById('modal');
-const iframe = document.getElementById('iframe');
-const closeModal = document.getElementById('closeModal');
-
-function openModal(url) {
-  iframe.src = url;
-  modal.style.display = "block";
-}
-
-closeModal.onclick = () => {
-  modal.style.display = "none";
-  iframe.src = "";
-};
-
-window.onclick = (event) => {
-  if (event.target == modal) {
-    modal.style.display = "none";
-    iframe.src = "";
-  }
-};
 
 const searchInput = document.getElementById('searchInput');
 searchInput.addEventListener('input', function() {
