@@ -3,22 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AI Tab Launcher</title>
+  <title>AI Command Center</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-  <h1>AI Multi-Tab Launcher</h1>
+  <h1>🚀 AI Command Center</h1>
+  <nav>
+    <button class="filter-btn" data-sector="all">All</button>
+    <button class="filter-btn" data-sector="chatbot">Chatbots</button>
+    <button class="filter-btn" data-sector="search">Search</button>
+    <button class="filter-btn" data-sector="coding">Coding</button>
+    <button class="filter-btn" data-sector="experimental">Experimental</button>
+  </nav>
   <input type="text" id="searchInput" placeholder="Search AI model...">
 </header>
 
 <div class="grid" id="aiGrid">
-  <!-- Buttons will be created here -->
+  <!-- AI Buttons will appear here -->
 </div>
 
 <script src="script.js"></script>
 
 </body>
 </html>
+
 
