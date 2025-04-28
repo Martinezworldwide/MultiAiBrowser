@@ -134,3 +134,80 @@ Feel free to fork, contribute, and expand the launcher!
 
 This project is licensed under the [MIT License](LICENSE).
 
+# 🚀 AI Command Center
+
+Welcome to the **AI Command Center** — your ultimate futuristic launch deck for every major AI platform, chatbot, search assistant, and coding tool.
+
+This clean, dark, high-tech portal opens AI sites in **new tabs**, bypassing iframe restrictions, built perfectly for **GitHub Pages** hosting.
+
+---
+
+## 🚀 Features
+
+- Futuristic carbon fiber themed design
+- Dynamic AI sectors (Chatbots, Search, Coding, Experimental)
+- Neon glow hover effects and Orbitron tech font
+- Real-time search filter
+- One-click AI launching (new tab)
+- Fully responsive on mobile, tablet, desktop
+- MIT Licensed for open use and expansion
+
+---
+
+## 📚 Current AI Models Supported
+
+Organized into sectors:
+
+| Sector | Examples |
+|:---|:---|
+| **Chatbots** | ChatGPT, Gemini, Claude, Poe, Pi.ai |
+| **Search Engines** | Perplexity AI, You.com, Andi Search, Phind |
+| **Developer AIs** | GitHub Copilot, Cursor AI, Codeium, Devin AI |
+| **Experimental AIs** | GroqChat, OpenRouter, Llama 3 Playground, Nvidia Nemo |
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3 (Grid, Flexbox, Responsive)
+- Vanilla JavaScript (Dynamic Grid)
+- Orbitron Futuristic Webfont
+- Neon styled UI
+- Pure client-side — GitHub Pages friendly!
+
+---
+
+## 🌐 Deployment
+
+To deploy your AI Command Center:
+1. Fork or clone the repository.
+2. Upload to GitHub.
+3. Enable GitHub Pages from `Settings → Pages → main branch → /root`.
+4. Launch your futuristic AI Deck online.
+
+---
+
+## ✨ Next Milestones
+
+- LocalStorage favorites system (bookmark AIs)
+- Featured/random AI highlights
+- Dark/Light Mode switch
+- Advanced dashboard with user personalization
+
+---
+
+## 👨‍💻 Credits
+
+Project designed and maintained by [Your Name].  
+Futuristic SVG Logo created manually for this project.
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
+
+
